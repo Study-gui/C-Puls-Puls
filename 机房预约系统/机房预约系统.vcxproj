@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="computerRoom.h" />
     <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="orderFile.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="Student.h" />
     <ClCompile Include="Teacher.cpp" />
@@ -139,6 +140,7 @@
     <ClInclude Include="glabalFile.h" />
     <ClInclude Include="Identity.h" />
     <ClInclude Include="Manager.h" />
+    <ClInclude Include="orderFile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

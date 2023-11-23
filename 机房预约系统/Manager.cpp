@@ -74,7 +74,7 @@ void Manager::AddPerson()
 
 	ofs.open(fname, ios::out | ios::app);//以追加的形式，写文件
 
-	int id;
+	int id=0;
 	string name;
 	string pwd;
  

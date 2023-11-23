@@ -9,7 +9,7 @@ using namespace std;
 #include"Student.h"
 #include"Teacher.h"
 #include"Manager.h"
-
+#include"orderFile.h"
 
 
 
@@ -56,7 +56,7 @@ void LoginIn(string filename,int type)
 	if (type == 1)
 	{
 		//学生登录身份验证
-		int fid;//文件读取的id
+		int fid=0;//文件读取的id
 		string fname;//文件读取的用户名
 		string fpwd;//文件读取的密码
 		//读取文件的信息
@@ -72,13 +72,12 @@ void LoginIn(string filename,int type)
 				StudentMenu(person);
 				return ;
 			}
-
 		}
 	}
 	else if (type == 2)
 	{
 		//老师身份验证
-		int fid;//文件读取的id
+		int fid=0;//文件读取的id
 		string fname;//文件读取的用户名
 		string fpwd;//文件读取的密码
 		//读取文件的信息

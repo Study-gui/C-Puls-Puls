@@ -6,7 +6,7 @@ using namespace std;
 #include"computerRoom.h"
 #include<fstream>
 #include"glabalFile.h"
-
+#include"orderFile.h"
 
 class Student :public Identity
 {

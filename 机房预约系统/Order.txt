@@ -1,1 +1,1 @@
-
+data:1 interval:1 stuId:1 stuname:уехЩ roomId:1 status:1
