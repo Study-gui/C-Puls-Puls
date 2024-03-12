@@ -1,0 +1,4 @@
+﻿  源1.cpp
+D:\c语言项目\2024\test_3_12\源1.cpp(48): warning C4172: 返回局部变量或临时变量的地址: guards
+D:\c语言项目\2024\test_3_12\源1.cpp(58): warning C4172: 返回局部变量或临时变量的地址: guards
+  test_3_12.vcxproj -> D:\c语言项目\2024\test_3_12\x64\Debug\test_3_12.exe
